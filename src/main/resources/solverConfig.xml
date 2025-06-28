@@ -1,0 +1,13 @@
+<solverConfig xmlns="http://www.optaplanner.org/xsd/solverConfig"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.optaplanner.org/xsd/solverConfig
+              http://www.optaplanner.org/xsd/solverConfig.xsd">
+    <solutionClass>com.example.scheduler.model.TimeTable</solutionClass>
+    <entityClass>com.example.scheduler.model.Lesson</entityClass>
+    <scoreDirectorFactory>
+        <constraintProviderClass>com.example.scheduler.constraint.TimeTableConstraintProvider</constraintProviderClass>
+    </scoreDirectorFactory>
+    <termination>
+        <secondsSpentLimit>666</secondsSpentLimit>
+    </termination>
+</solverConfig>
