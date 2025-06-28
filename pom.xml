@@ -45,6 +45,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.optaplanner/optaplanner-core -->
+		<dependency>
+			<groupId>org.optaplanner</groupId>
+			<artifactId>optaplanner-core</artifactId>
+			<version>10.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
